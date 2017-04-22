@@ -1,0 +1,35 @@
+#!/bin/bash
+
+RUN_DIR=`dirname "$0"`
+
+$RUN_DIR/tpcleader 16200 2 2 &
+
+function ctrl_c() {
+    for kv_pid in $(jobs -p)
+    do
+        kill "${kv_pid}" 2>/dev/null
+    done
+    exit
+}
+trap ctrl_c INT
+
+until lsof -i :16200 >/dev/null
+do
+    echo "Waiting for kvleader to start..."
+    sleep 1
+done
+
+$RUN_DIR/kvfollower 16201 16200 &
+$RUN_DIR/kvfollower 16202 16200 &
+
+BLUE=`tput setaf 4`
+RED=`tput setaf 1`
+GREEN=`tput setaf 2`
+NORMAL=`tput sgr0`
+
+echo "${GREEN}All processes started${NORMAL}"
+echo "Go to ${BLUE}http://192.168.162.162:16200${NORMAL} to connect to the ${GREEN}TPCLeader${NORMAL}."
+echo "Go to ${BLUE}http://192.168.162.162:16201${NORMAL} or ${BLUE}:16202${NORMAL} to connect to a ${GREEN}KVFollower${NORMAL}."
+echo "Use ${RED}Ctrl+C${NORMAL} to stop all processes."
+
+wait

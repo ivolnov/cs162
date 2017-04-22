@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/hello.dir/tokenizer.c.o CMakeFiles/hello.dir/shell.c.o  -o hello 

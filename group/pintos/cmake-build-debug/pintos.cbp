@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pintos"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pintos">
+				<Option output="/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/pintos" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/utils"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 pintos"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pintos/fast">
+				<Option output="/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/pintos" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/utils"/>
+					<Add directory="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 pintos/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/CMakeFiles/feature_tests.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/block.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/block.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/ide.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/ide.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/input.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/input.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/intq.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/intq.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/kbd.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/kbd.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/partition.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/partition.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/pit.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/pit.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/rtc.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/rtc.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/serial.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/serial.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/shutdown.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/shutdown.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/speaker.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/speaker.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/timer.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/timer.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/vga.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/devices/vga.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/bubsort.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/cat.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/cmp.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/cp.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/echo.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/halt.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/hex-dump.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/insult.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/lineup.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/ls.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/matmult.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/mcat.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/mcp.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/mkdir.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/pwd.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/recursor.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/rm.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/examples/shell.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/directory.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/directory.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/file.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/file.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/filesys.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/filesys.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/free-map.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/free-map.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/fsutil.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/fsutil.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/inode.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/inode.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/filesys/off_t.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/arithmetic.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/ctype.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/debug.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/debug.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/inttypes.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/bitmap.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/bitmap.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/console.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/console.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/debug.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/hash.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/hash.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/list.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/list.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/kernel/stdio.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/limits.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/packed.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/random.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/random.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/round.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/stdarg.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/stdbool.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/stddef.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/stdint.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/stdio.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/stdio.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/stdlib.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/stdlib.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/string.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/string.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/syscall-nr.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/user/console.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/user/debug.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/user/entry.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/user/stdio.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/user/syscall.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/user/syscall.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/ustar.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/lib/ustar.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/arc4.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/arc4.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/cksum.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/cksum.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/filesys/seq-test.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/filesys/seq-test.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/internal/list.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/internal/stdio.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/internal/stdlib.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/lib.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/lib.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/main.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/main.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/alarm-negative.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/alarm-priority.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/alarm-simultaneous.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/alarm-wait.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/alarm-zero.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/mlfqs-block.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/mlfqs-fair.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/mlfqs-load-1.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/mlfqs-load-60.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/mlfqs-load-avg.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/mlfqs-recent-1.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-change.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-condvar.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-donate-chain.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-donate-lower.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-donate-multiple.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-donate-multiple2.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-donate-nest.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-donate-one.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-donate-sema.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-fifo.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-preempt.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/priority-sema.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/tests.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/threads/tests.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/args.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/bad-jump.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/bad-jump2.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/bad-read.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/bad-read2.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/bad-write.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/bad-write2.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/boundary.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/boundary.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/child-bad.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/child-close.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/child-rox.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/child-simple.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/close-bad-fd.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/close-normal.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/close-stdin.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/close-stdout.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/close-twice.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/create-bad-ptr.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/create-bound.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/create-empty.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/create-exists.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/create-long.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/create-normal.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/create-null.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/exec-arg.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/exec-bad-ptr.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/exec-missing.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/exec-multiple.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/exec-once.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/exit.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/halt.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/iloveos.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/multi-child-fd.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/multi-recurse.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/open-bad-ptr.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/open-boundary.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/open-empty.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/open-missing.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/open-normal.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/open-null.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/open-twice.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/practice.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/read-bad-fd.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/read-bad-ptr.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/read-boundary.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/read-normal.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/read-stdout.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/read-zero.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/rox-child.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/rox-multichild.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/rox-simple.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/sc-bad-arg.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/sc-bad-sp.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/sc-boundary-2.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/sc-boundary.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/wait-bad-pid.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/wait-killed.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/wait-simple.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/wait-twice.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/write-bad-fd.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/write-bad-ptr.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/write-boundary.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/write-normal.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/write-stdin.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/userprog/write-zero.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/child-inherit.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/child-linear.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/child-mm-wrt.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/child-qsort-mm.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/child-qsort.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/child-sort.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-bad-fd.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-clean.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-close.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-exit.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-inherit.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-misalign.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-null.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-over-code.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-over-data.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-over-stk.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-overlap.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-read.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-remove.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-shuffle.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-twice.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-unmap.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-write.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/mmap-zero.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/page-linear.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/page-merge-mm.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/page-merge-par.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/page-merge-seq.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/page-merge-stk.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/page-parallel.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/page-shuffle.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/parallel-merge.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/parallel-merge.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/pt-bad-addr.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/pt-bad-read.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/pt-big-stk-obj.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/pt-grow-bad.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/pt-grow-pusha.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/pt-grow-stack.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/pt-grow-stk-sc.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/pt-write-code-2.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/pt-write-code.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/qsort.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/tests/vm/qsort.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/fixed-point.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/flags.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/init.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/init.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/interrupt.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/interrupt.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/intr-stubs.S">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/intr-stubs.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/io.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/kernel.lds.S">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/loader.S">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/loader.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/malloc.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/malloc.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/palloc.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/palloc.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/pte.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/start.S">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/switch.S">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/switch.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/synch.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/synch.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/thread.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/thread.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/threads/vaddr.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/exception.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/exception.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/gdt.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/gdt.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/pagedir.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/pagedir.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/process.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/process.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/syscall.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/syscall.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/tss.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/userprog/tss.h">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/utils/setitimer-helper.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/utils/squish-pty.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/src/utils/squish-unix.c">
+			<Option target="pintos"/>
+		</Unit>
+		<Unit filename="/home/ivolnov/Downloads/cs162/group/group0/pintos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

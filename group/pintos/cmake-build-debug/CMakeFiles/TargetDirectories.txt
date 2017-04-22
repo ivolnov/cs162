@@ -1,0 +1,3 @@
+/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug/CMakeFiles/pintos.dir

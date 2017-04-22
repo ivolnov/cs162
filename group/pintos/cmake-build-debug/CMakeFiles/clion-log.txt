@@ -1,0 +1,4 @@
+/home/ivolnov/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ivolnov/Downloads/cs162/group/group0/pintos
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ivolnov/Downloads/cs162/group/group0/pintos/cmake-build-debug

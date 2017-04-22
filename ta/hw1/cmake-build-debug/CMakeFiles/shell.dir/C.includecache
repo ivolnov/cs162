@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ivolnov/Downloads/cs162/ta/hw1/shell.c
+ctype.h
+-
+errno.h
+-
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+signal.h
+-
+sys/wait.h
+-
+termios.h
+-
+unistd.h
+-
+tokenizer.h
+/home/ivolnov/Downloads/cs162/ta/hw1/tokenizer.h
+
+/home/ivolnov/Downloads/cs162/ta/hw1/tokenizer.c
+ctype.h
+-
+stdlib.h
+-
+string.h
+-
+tokenizer.h
+/home/ivolnov/Downloads/cs162/ta/hw1/tokenizer.h
+
+/home/ivolnov/Downloads/cs162/ta/hw1/tokenizer.h
+

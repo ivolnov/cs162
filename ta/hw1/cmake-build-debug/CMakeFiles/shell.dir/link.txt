@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/shell.dir/tokenizer.c.o CMakeFiles/shell.dir/shell.c.o CMakeFiles/shell.dir/test.c.o  -o shell 
